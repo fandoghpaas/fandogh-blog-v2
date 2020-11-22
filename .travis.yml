@@ -2,14 +2,12 @@ branches:
   only:
   - main
 language: python
-node_js:
-  - 10
 cache: yarn
 python:
   - "3.5" 
 # command to install dependencies
 before_install:
-  - sudo apt-get update
+  - nvm install 10.16.3
 install:
   - pip install fandogh-cli --upgrade
 # command to run tests
