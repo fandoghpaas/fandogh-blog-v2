@@ -27,13 +27,13 @@ module.exports = {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    announcementBar: {
-      id: 'support_us', // Any value that will identify this message.
-      content: 'مستندات سکوی ابری فندق بروزرسانی شد.',
-      backgroundColor: '#fafbfc', // Defaults to `#fff`.
-      textColor: '#091E42', // Defaults to `#000`.
-      isCloseable: true, // Defaults to `true`.
-    },
+//    announcementBar: {
+//      id: 'support_us', // Any value that will identify this message.
+//      content: 'مستندات سکوی ابری فندق بروزرسانی شد.',
+//      backgroundColor: '#fafbfc', // Defaults to `#fff`.
+//      textColor: '#091E42', // Defaults to `#000`.
+//      isCloseable: true, // Defaults to `true`.
+//    },
     googleAnalytics: {
       trackingID: 'UA-141789564-1', // UA-120059029-1
     },
@@ -59,7 +59,7 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://github.com/fandoghpaas/fandogh-docs',
+          href: 'https://github.com/fandoghpaas/fandogh-blog-v2',
           label: 'GitHub',
           position: 'right',
         },
@@ -78,7 +78,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/fandoghpaas/fandogh-docs',
+              href: 'https://github.com/fandoghpaas/fandogh-blog-v2',
             },
             {
               label: 'email',
@@ -101,7 +101,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           editUrl:
-             'https://github.com/fandoghpaas/fandogh-blog/edit/master/website/',
+             'https://github.com/fandoghpaas/fandogh-blog-v2/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
