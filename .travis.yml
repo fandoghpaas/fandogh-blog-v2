@@ -2,7 +2,8 @@ branches:
   only:
   - main
 language: python
-node_js: "10.16.3"
+node_js:
+  - 10
 cache: yarn
 python:
   - "3.5" 
