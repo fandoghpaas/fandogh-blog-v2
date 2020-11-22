@@ -27,16 +27,6 @@ module.exports = {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-//    announcementBar: {
-//      id: 'support_us', // Any value that will identify this message.
-//      content: 'مستندات سکوی ابری فندق بروزرسانی شد.',
-//      backgroundColor: '#fafbfc', // Defaults to `#fff`.
-//      textColor: '#091E42', // Defaults to `#000`.
-//      isCloseable: true, // Defaults to `true`.
-//    },
-    googleAnalytics: {
-      trackingID: 'UA-141789564-1', // UA-120059029-1
-    },
     image: 'img/fandogh.png',
     metadatas: [{name: 'twitter:card', content: 'summary'}, 
                 {name: 'description', content: 'سکوی ابری فندق اولین سکوی ابری عمومی ایران'},
