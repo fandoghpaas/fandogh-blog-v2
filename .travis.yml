@@ -13,6 +13,7 @@ script:
   - echo $TRAVIS_COMMIT  
   - COLLECT_ERROR=True fandogh login --username=$FANDOGH_USERNAME --password=$FANDOGH_PASSWORD
   - fandogh namespace active --name default
+  - node --version
   - yarn
   - yarn build
   - fandogh source run
