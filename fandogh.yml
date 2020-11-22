@@ -1,5 +1,5 @@
 kind: ExternalService
-name: blog-v2
+name: blog
 spec:
   image_pull_policy: Always
   port: 80
