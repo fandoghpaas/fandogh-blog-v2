@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="650px" viewBox="0 0 1200 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>django</title>
+    <g id="django" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#092E20" x="0" y="0" width="1200" height="650"></rect>
+        <text font-family="LucidaGrande-Bold, Lucida Grande" font-size="312" font-weight="bold" fill="#FEFEFE">
+            <tspan x="47.4824219" y="443">django</tspan>
+        </text>
+    </g>
+</svg>

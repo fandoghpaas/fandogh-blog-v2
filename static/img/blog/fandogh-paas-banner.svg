@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="500px" viewBox="0 0 1500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy 65</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="70.9576897%" gradientTransform="translate(0.500000,0.500000),scale(0.333333,1.000000),rotate(6.708436),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#000896" offset="0%"></stop>
+            <stop stop-color="#020031" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="1500" height="500"></rect>
+        <filter x="-0.3%" y="-0.4%" width="100.5%" height="101.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.5%" y="-1.0%" width="100.9%" height="102.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="70.9576897%" gradientTransform="translate(0.500000,0.500000),scale(0.333333,1.000000),rotate(6.708436),translate(-0.500000,-0.500000)" id="radialGradient-5">
+            <stop stop-color="#000896" offset="0%"></stop>
+            <stop stop-color="#020031" stop-opacity="0.929195804" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-6" x="0" y="0" width="1500" height="500"></rect>
+        <filter x="-10.3%" y="-30.4%" width="120.5%" height="161.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-10.5%" y="-31.0%" width="120.9%" height="162.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard-Copy-65" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FEFEFE" x="0" y="0" width="1500" height="500"></rect>
+        <g id="Rectangle-Copy-8" filter="url(#filter-3)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+            <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+        <g id="Group" opacity="0.203529" transform="translate(-13.000000, 0.000000)">
+            <circle id="Ellipse_184" fill="#FEFEFE" fill-rule="nonzero" cx="14" cy="188" r="14"></circle>
+            <polygon id="Rectangle_858" fill="#FEFEFE" fill-rule="nonzero" transform="translate(115.992334, 247.491860) rotate(-60.000000) translate(-115.992334, -247.491860) " points="115.057187 130.173451 116.813776 130.174303 116.92748 364.810269 115.170891 364.809417"></polygon>
+            <polygon id="Rectangle_860" fill="#FEFEFE" fill-rule="nonzero" transform="translate(276.008777, 281.634886) rotate(60.000000) translate(-276.008777, -281.634886) " points="275.160292 220.120265 276.916882 220.119413 276.857262 343.149507 275.100672 343.150359"></polygon>
+            <polygon id="Rectangle_861" fill="#FEFEFE" fill-rule="nonzero" transform="translate(299.070464, 117.045794) rotate(150.000000) translate(-299.070464, -117.045794) " points="298.14824 27.4593136 299.905813 27.4601653 299.992688 206.632274 298.235115 206.631422"></polygon>
+            <polygon id="Rectangle_862" fill="#FEFEFE" fill-rule="nonzero" transform="translate(496.799674, 281.859181) rotate(111.000000) translate(-496.799674, -281.859181) " points="495.883824 181.22412 497.640174 181.224778 497.715524 382.494241 495.959174 382.493583"></polygon>
+            <polygon id="Rectangle_863" fill="#FEFEFE" fill-rule="nonzero" transform="translate(633.574201, 201.278793) rotate(174.870000) translate(-633.574201, -201.278793) " points="632.687163 120.936522 634.445211 120.936697 634.46124 281.621063 632.703191 281.620888"></polygon>
+            <polygon id="Rectangle_864" fill="#FEFEFE" fill-rule="nonzero" transform="translate(748.817649, 245.065477) rotate(-135.000000) translate(-748.817649, -245.065477) " points="747.984103 164.679511 749.741184 164.678528 749.651195 325.451443 747.894114 325.452426"></polygon>
+            <polygon id="Rectangle_865" fill="#FEFEFE" fill-rule="nonzero" transform="translate(887.703543, 73.767256) rotate(-150.000000) translate(-887.703543, -73.767256) " points="886.84754 26.7789185 888.605113 26.7780667 888.559546 120.755594 886.801974 120.756446"></polygon>
+            <polygon id="Rectangle_866" fill="#FEFEFE" fill-rule="nonzero" transform="translate(1177.043403, 272.500000) rotate(-135.000000) translate(-1177.043403, -272.500000) " points="1176.18677 208.432102 1177.94207 208.431526 1177.90003 336.567898 1176.14474 336.568474"></polygon>
+            <ellipse id="Ellipse_194" fill="#FEFEFE" fill-rule="nonzero" cx="1092.18779" cy="355.651952" rx="14.0469484" ry="14.0377358"></ellipse>
+            <ellipse id="Oval" cx="1092.18779" cy="355.651952" rx="42.1408451" ry="42.1132075"></ellipse>
+            <ellipse id="Oval" stroke="#FEFEFE" stroke-width="2" cx="1092.18779" cy="355.651952" rx="41.2629108" ry="41.2358491"></ellipse>
+            <ellipse id="Oval" cx="1092.18779" cy="355.651952" rx="56.1877934" ry="56.1509434"></ellipse>
+            <ellipse id="Oval" stroke="#FEFEFE" stroke-width="2" cx="1092.18779" cy="355.651952" rx="55.3098592" ry="55.2735849"></ellipse>
+            <polygon id="Rectangle_866" fill="#FEFEFE" fill-rule="nonzero" transform="translate(1271.011910, 180.243561) scale(-1, -1) rotate(-135.000000) translate(-1271.011910, -180.243561) " points="1270.2489 118.516443 1271.94009 118.514181 1271.77492 241.970678 1270.08373 241.97294"></polygon>
+            <ellipse id="Ellipse_194" fill="#FEFEFE" fill-rule="nonzero" transform="translate(1353.672914, 100.558838) scale(-1, -1) translate(-1353.672914, -100.558838) " cx="1353.67291" cy="100.558838" rx="13.6280193" ry="13.6097561"></ellipse>
+            <ellipse id="Oval" transform="translate(1352.793687, 99.680789) scale(-1, -1) translate(-1352.793687, -99.680789) " cx="1352.79369" cy="99.6807889" rx="40.884058" ry="40.8292683"></ellipse>
+            <ellipse id="Oval" stroke="#FEFEFE" stroke-width="2" transform="translate(1352.793687, 99.680789) scale(-1, -1) translate(-1352.793687, -99.680789) " cx="1352.79369" cy="99.6807889" rx="40.0323068" ry="39.9786585"></ellipse>
+            <ellipse id="Oval" transform="translate(1353.672914, 99.680789) scale(-1, -1) translate(-1353.672914, -99.680789) " cx="1353.67291" cy="99.6807889" rx="54.0724638" ry="54"></ellipse>
+            <ellipse id="Oval" stroke="#FEFEFE" stroke-width="2" transform="translate(1353.672914, 99.680789) scale(-1, -1) translate(-1353.672914, -99.680789) " cx="1353.67291" cy="99.6807889" rx="53.2275815" ry="53.15625"></ellipse>
+            <polygon id="Rectangle_868" fill="#FEFEFE" fill-rule="nonzero" transform="translate(1467.679549, 272.815636) rotate(-150.000000) translate(-1467.679549, -272.815636) " points="1466.84292 185.864892 1468.6005 185.86404 1468.51618 359.76638 1466.7586 359.767232"></polygon>
+            <polygon id="Rectangle_867" fill="#FEFEFE" fill-rule="nonzero" transform="translate(1200.765527, 146.801507) rotate(165.020000) translate(-1200.765527, -146.801507) " points="1199.88674 64.6348406 1201.64432 64.6348406 1201.64432 228.968174 1199.88674 228.968174"></polygon>
+            <circle id="Ellipse_198" fill="#FEFEFE" fill-rule="nonzero" cx="1179.06061" cy="67.0606061" r="14.0606061"></circle>
+            <polygon id="Rectangle_867" fill="#FEFEFE" fill-rule="nonzero" transform="translate(1245.234473, 307.198493) scale(-1, -1) rotate(165.020000) translate(-1245.234473, -307.198493) " points="1244.35568 225.031826 1246.11326 225.031826 1246.11326 389.365159 1244.35568 389.365159"></polygon>
+            <circle id="Ellipse_198" fill="#FEFEFE" fill-rule="nonzero" transform="translate(1266.939394, 386.939394) scale(-1, -1) translate(-1266.939394, -386.939394) " cx="1266.93939" cy="386.939394" r="14.0606061"></circle>
+            <polygon id="Rectangle_859" fill="#FEFEFE" fill-rule="nonzero" transform="translate(171.303612, 391.996680) rotate(-149.000000) translate(-171.303612, -391.996680) " points="170.473903 292.748123 172.231446 292.747254 172.133321 491.245238 170.375779 491.246106"></polygon>
+            <circle id="Ellipse_185" fill="#FEFEFE" fill-rule="nonzero" cx="115" cy="490" r="14"></circle>
+            <circle id="Oval" cx="364" cy="230" r="42"></circle>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="2" cx="364" cy="230" r="41.125"></circle>
+            <circle id="Oval" cx="645.5" cy="341.5" r="61.5"></circle>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="2" cx="645.5" cy="341.5" r="60.6214286"></circle>
+            <circle id="Oval" cx="620.5" cy="61.5" r="61.5"></circle>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="2" cx="620.5" cy="61.5" r="60.6214286"></circle>
+            <circle id="Oval" cx="839.5" cy="155.5" r="48.5"></circle>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="2" cx="839.5" cy="155.5" r="47.6181818"></circle>
+            <circle id="Ellipse_193" fill="#FEFEFE" fill-rule="nonzero" cx="840" cy="155" r="14"></circle>
+            <circle id="Ellipse_197" fill="#FEFEFE" fill-rule="nonzero" cx="1224" cy="227" r="14"></circle>
+            <circle id="Ellipse_199" fill="#FEFEFE" fill-rule="nonzero" cx="1423" cy="349" r="14"></circle>
+            <circle id="Ellipse_200" fill="#FEFEFE" fill-rule="nonzero" cx="1512" cy="198" r="14"></circle>
+            <circle id="Ellipse_198-Copy" fill="#FEFEFE" fill-rule="nonzero" cx="248" cy="29" r="14"></circle>
+            <circle id="Oval" cx="620.5" cy="61.5" r="24.5"></circle>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="2" cx="620.5" cy="61.5" r="23.625"></circle>
+            <circle id="Oval" cx="646" cy="342" r="28"></circle>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="2" cx="646" cy="342" r="27.125"></circle>
+            <circle id="Oval" cx="365" cy="230" r="28"></circle>
+            <circle id="Oval" stroke="#FEFEFE" stroke-width="2" cx="365" cy="230" r="27.125"></circle>
+            <circle id="Ellipse_198" fill="#FEFEFE" fill-rule="nonzero" cx="916" cy="25" r="14"></circle>
+        </g>
+        <g id="Rectangle-Copy-9" filter="url(#filter-7)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-6"></use>
+            <use fill-opacity="0.7" fill="url(#radialGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+        </g>
+        <g id="Group-45" transform="translate(579.000000, 58.000000)">
+            <g id="Group-41" stroke="#FEFEFE" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="10">
+                <g id="Group-40">
+                    <path d="M21.3905921,86.3683195 L42.7811843,74.0299881 L85.5623686,49.3533254 L171.124737,0 L171.124737,0 L256.687106,49.3533254 L299.46829,74.0299881 L320.858882,86.3683195 M342.249474,123.383314 L342.249474,148.059976 L342.249474,197.413302 L342.249474,296.119952 L256.687106,345.473278 L213.905921,370.149941 L192.515329,382.488272 M149.734145,382.488272 L128.343553,370.149941 L85.5623686,345.473278 L0,296.119952 L0,197.413302 L0,148.059976 L0,123.383314" id="Shape"></path>
+                    <path d="M47.8500336,110.824277 L65.4607055,100.845462 L100.682049,80.887832 L171.124737,40.972572 L171.124737,40.972572 L241.567425,80.887832 L276.788769,100.845462 L294.399441,110.824277 M312.79865,140.235521 L312.79865,160.543285 L312.79865,201.158813 L312.79865,282.389868 L241.304579,323.005395 L205.557543,343.313159 L187.684026,353.467041 M154.565449,353.467041 L136.691931,343.313159 L100.944895,323.005395 L29.4508241,282.389868 L29.4508241,201.158813 L29.4508241,160.543285 L29.4508241,140.235521" id="Shape-Copy-3" stroke-opacity="0.4"></path>
+                </g>
+            </g>
+            <path d="M231.406137,158.09059 C231.405345,155.930981 230.952624,153.795461 230.077107,151.821458 C231.21278,151.351807 232.307506,150.788611 233.349999,150.137677 C239.894043,146.06771 243.702484,138.754599 243.286676,131.0569 C243.199732,128.791588 241.338867,127 239.072904,127 C236.806941,127 234.946076,128.791588 234.859132,131.0569 C235.251301,135.741831 233.058375,140.267815 229.139333,142.862005 C227.624374,143.829771 225.957394,144.53551 224.208257,144.949644 C221.670952,143.317942 218.716249,142.454867 215.699978,142.464359 C212.967397,142.466341 210.282008,143.177058 207.905898,144.527146 C193.755173,130.173916 173.175796,124.190656 153.539858,128.720732 C145.385086,130.652588 137.646637,134.043627 130.697924,138.730218 C129.540095,139.374306 128.467659,140.161252 127.505767,141.072599 L127.505767,141.072599 C122.27563,146.020415 121.117496,153.91006 124.704866,160.153376 C116.483028,168.907366 109.968319,179.121069 105.496029,190.26882 C101.598385,200.13897 99.3248979,210.575693 98.7639308,221.173342 C98.1735427,230.973462 98.9912951,240.807639 101.192206,250.375443 C99.1140195,253.083952 97.9914701,256.405044 98,259.819527 C98.0175086,265.492732 101.089167,270.716363 106.03729,273.487579 C110.985412,276.258794 117.042189,276.147579 121.885334,273.196574 C129.798453,275.098607 137.91189,276.039446 146.050089,276 C147.993951,276 150.012338,275.949028 152.080409,275.81855 C162.704534,275.254793 173.168546,272.982725 183.070418,269.08964 C194.257384,264.635741 204.508463,258.118976 213.290334,249.878386 C215.65869,251.22538 218.335266,251.93603 221.059573,251.941172 C225.692028,251.950466 230.089606,249.902045 233.06432,246.349281 L233.114003,246.349281 C239.077093,238.693775 243.314276,229.838322 245.534849,220.390477 C250.070905,200.609771 243.912399,179.897706 229.307014,165.813614 C230.684445,163.473387 231.409332,160.806408 231.406137,158.09059 L231.406137,158.09059 Z M214.017964,153 C217.881603,153.009915 221.006595,156.148304 221,160.011957 C220.993384,163.87561 217.857678,167.003294 213.994027,167 C210.130377,166.996701 207,163.86367 207,160.000011 C207.016474,156.134816 210.152741,153.009248 214.017964,153.005988 L214.017964,153 Z M139.024037,146.00184 C142.886838,146.015056 146.008786,149.154488 146,153.016852 C145.991177,156.879216 142.854949,160.004386 138.992129,160 C135.129309,159.995605 132.000194,156.863314 132.000172,153.00094 C131.98733,151.181766 132.695671,149.431569 133.970207,148.133303 C134.263617,147.911774 134.904328,147.39687 135.916291,146.708336 C136.877647,146.218971 137.945575,145.976195 139.024037,146.00184 Z M113.994075,267 C111.161252,266.99756 108.609174,265.287951 107.529029,262.669136 C106.448884,260.050321 107.053646,257.038654 109.06104,255.039837 C111.068434,253.04102 114.082662,252.449162 116.696825,253.540513 C119.310988,254.631863 121.009651,257.191241 121,260.024051 C120.97369,263.877503 117.847601,266.990234 113.994075,267 Z M179.346303,261.664448 C170.305452,265.203984 160.750701,267.286443 151.045007,267.832718 C143.072923,268.293788 135.073797,267.800881 127.220857,266.36467 C128.05227,264.438971 128.476131,262.364818 128.466239,260.270418 C128.452839,255.246268 125.996477,250.536296 121.867778,247.618141 C117.739078,244.699986 112.443894,243.931182 107.643459,245.552925 C106.213833,237.925314 105.714178,230.155224 106.155228,222.409574 C106.666397,212.768753 108.752505,203.273849 112.332321,194.294597 C116.389543,184.267123 122.302829,175.079054 129.767663,167.203553 C134.656508,169.902778 140.625063,169.825262 145.44079,167 C153.867644,170.496507 161.842691,174.977631 169.196443,180.348137 C177.10529,186.046004 184.241719,192.727563 190.430198,200.228473 C197.450953,208.776534 203.045,218.382824 207,228.682705 C205.438103,231.145813 204.611314,233.996285 204.615094,236.90501 C204.604937,239.555223 205.29397,242.162077 206.613932,244.467309 C198.681197,251.829714 189.431742,257.661826 179.340076,261.664448 L179.346303,261.664448 Z M220.982036,242 C217.118397,241.990085 213.993405,238.851696 214,234.988043 C214.006616,231.12439 217.142322,227.996706 221.005973,228 C224.869623,228.003299 228,231.13633 228,234.999989 C227.986803,238.869859 224.845935,242 220.976048,242 L220.982036,242 Z M237.852026,219.315856 C237.112553,222.629759 236.088841,225.870379 234.792805,229 C231.94163,224.472435 227.040668,221.736016 221.778877,221.73376 C219.529572,221.740912 217.307796,222.240691 215.262736,223.199536 C211.12607,212.948021 205.537055,203.376216 198.675637,194.792295 C192.114654,186.583129 184.542229,179.279034 176.147531,173.062478 C169.274018,167.918292 161.891313,163.528157 154.121137,159.964453 C155.180668,157.796097 155.731644,155.404639 155.730287,152.980093 C155.735877,147.758084 153.215582,142.872022 149,139.93218 C151.633279,138.860355 154.341086,137.991417 157.100818,137.33262 C164.475137,135.512342 172.171451,135.55749 179.524911,137.464164 C188.286979,139.951416 196.316133,144.609009 202.903481,151.025725 C201.612544,153.369239 200.935938,156.014887 200.939461,158.705389 C200.963075,167.439811 207.88763,174.506685 216.419121,174.503198 C219.060742,174.498074 221.65812,173.8085 223.96928,172.498718 C236.273494,184.546102 241.5336,202.300539 237.83979,219.315856 L237.852026,219.315856 Z" id="ic_fandogh" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

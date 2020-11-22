@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="650px" viewBox="0 0 1200 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dockerfile</title>
+    <defs>
+        <linearGradient x1="-23.9277254%" y1="-13.4%" x2="77.1837362%" y2="73.4%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#B3D1EA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-21.1%" y1="33.588325%" x2="38.8%" y2="47.4139179%" id="linearGradient-2">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#B3D1EA" offset="0%"></stop>
+            <stop stop-color="#428CCB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-54.2%" y1="-28.3976264%" x2="317%" y2="250.844424%" id="linearGradient-4">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="22.6%" y1="29.313579%" x2="393.8%" y2="308.629751%" id="linearGradient-5">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-107.6%" y1="-68.5863087%" x2="263.7%" y2="210.754729%" id="linearGradient-6">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-15.9%" y1="0.407562066%" x2="355.4%" y2="279.7486%" id="linearGradient-7">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-80.9%" y1="-48.4851092%" x2="290.4%" y2="230.836477%" id="linearGradient-8">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-146%" y1="-97.4904841%" x2="225.3%" y2="181.850554%" id="linearGradient-9">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-184.4%" y1="-126.422611%" x2="186.9%" y2="152.962691%" id="linearGradient-10">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-119.3%" y1="-77.3872719%" x2="251.9%" y2="201.934314%" id="linearGradient-11">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-42.5%" y1="-19.5867263%" x2="328.8%" y2="259.750033%" id="linearGradient-12">
+            <stop stop-color="#428CCB" offset="0%"></stop>
+            <stop stop-color="#214666" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="dockerfile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FEFEFE" x="0" y="0" width="1200" height="650"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#FEFEFE" x="47" y="143" width="256" height="346"></rect>
+        <rect id="Rectangle-Copy" stroke="#000000" fill="#FEFEFE" x="472" y="143" width="256" height="346"></rect>
+        <text id="FROM-image_repo" font-family="LucidaGrande-Bold, Lucida Grande" font-size="8" font-weight="bold" fill="#171717">
+            <tspan x="57.7207031" y="159">FROM  </tspan>
+            <tspan x="86.9550781" y="159" font-family="LucidaGrande, Lucida Grande" font-weight="normal">image_repo</tspan>
+        </text>
+        <text id="WORKDIR-some_dir" font-family="LucidaGrande-Bold, Lucida Grande" font-size="8" font-weight="bold" fill="#171717">
+            <tspan x="57.328125" y="185">WORKDIR  </tspan>
+            <tspan x="102.132812" y="185" font-family="LucidaGrande, Lucida Grande" font-weight="normal">some_dir</tspan>
+        </text>
+        <text id="RUN-command_one" font-family="LucidaGrande-Bold, Lucida Grande" font-size="8" font-weight="bold" fill="#171717">
+            <tspan x="57.7324219" y="206">RUN  </tspan>
+            <tspan x="80.5644531" y="206" font-family="LucidaGrande, Lucida Grande" font-weight="normal">command_one</tspan>
+        </text>
+        <text id="RUN-command_two" font-family="LucidaGrande-Bold, Lucida Grande" font-size="8" font-weight="bold" fill="#171717">
+            <tspan x="57.8652344" y="218">RUN  </tspan>
+            <tspan x="80.6972656" y="218" font-family="LucidaGrande, Lucida Grande" font-weight="normal">command_two</tspan>
+        </text>
+        <text id="RUN-command_three" font-family="LucidaGrande-Bold, Lucida Grande" font-size="8" font-weight="bold" fill="#171717">
+            <tspan x="57.828125" y="230">RUN  </tspan>
+            <tspan x="80.6601562" y="230" font-family="LucidaGrande, Lucida Grande" font-weight="normal">command_three</tspan>
+        </text>
+        <text id="RUN-command_four" font-family="LucidaGrande-Bold, Lucida Grande" font-size="8" font-weight="bold" fill="#171717">
+            <tspan x="57.8535156" y="242">RUN  </tspan>
+            <tspan x="80.6855469" y="242" font-family="LucidaGrande, Lucida Grande" font-weight="normal">command_four</tspan>
+        </text>
+        <text id="ENTRYPOINT-[‘some’," font-family="LucidaGrande-Bold, Lucida Grande" font-size="8" font-weight="bold" fill="#171717">
+            <tspan x="57.8535156" y="262">ENTRYPOINT </tspan>
+            <tspan x="113.787109" y="262" font-family="LucidaGrande, Lucida Grande" font-weight="normal"> [‘some’, ‘some_other’]</tspan>
+        </text>
+        <text id="Dockerfile" font-family="LucidaGrande-Bold, Lucida Grande" font-size="38" font-weight="bold" fill="#171717">
+            <tspan x="75.2045898" y="548">Dockerfile</tspan>
+        </text>
+        <text id="Docker-Image" font-family="LucidaGrande-Bold, Lucida Grande" font-size="32" font-weight="bold" fill="#171717">
+            <tspan x="486.375" y="548">Docker Image</tspan>
+        </text>
+        <text id="Docker-Container" font-family="LucidaGrande-Bold, Lucida Grande" font-size="32" font-weight="bold" fill="#171717">
+            <tspan x="870.15625" y="548">Docker Container</tspan>
+        </text>
+        <g id="Group" transform="translate(316.000000, 315.500000)">
+            <path id="Path-15" d="M122,-6.5 L136,0.5 L122,7.5 L122,1.5 L0,1.5 L0,-0.5 L122,-0.5 L122,-6.5 Z" fill="#121212" fill-rule="nonzero"></path>
+            <text id="build" font-family="LucidaGrande, Lucida Grande" font-size="28" font-weight="normal" fill="#171717">
+                <tspan x="33.5947266" y="43.5">build</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy" transform="translate(741.000000, 315.500000)">
+            <path id="Path-15" d="M122,-6.5 L136,0.5 L122,7.5 L122,1.5 L0,1.5 L0,-0.5 L122,-0.5 L122,-6.5 Z" fill="#121212" fill-rule="nonzero"></path>
+            <text id="run" font-family="LucidaGrande, Lucida Grande" font-size="28" font-weight="normal" fill="#171717">
+                <tspan x="44.8945312" y="43.5">run</tspan>
+            </text>
+        </g>
+        <g id="docker" transform="translate(500.000000, 239.000000)" fill="#2396ED" fill-rule="nonzero">
+            <path d="M194.892317,54.9499323 C190.411208,51.8322059 180.142001,50.6630584 172.113348,52.2219214 C171.179784,44.4276049 166.885388,37.6075778 159.416873,31.5669825 L155.122478,28.4492558 L152.135072,32.9309878 C148.400814,38.7767253 146.533686,46.9607578 147.093824,54.7550746 C147.280537,57.4830855 148.214102,62.354533 151.014795,66.6414075 C148.400814,68.2002709 142.986142,70.1488498 135.891053,70.1488498 L0.897653225,70.1488498 L0.52422749,71.7077133 C-0.78276256,79.5020292 -0.78276256,103.859269 14.5276921,122.56563 C26.1038896,136.790257 43.281473,144 65.8737295,144 C114.792499,144 151.014795,120.422192 168.005665,77.7483084 C174.727328,77.9431666 189.104218,77.7483084 196.38602,63.1339651 C196.572733,62.7442491 196.946158,61.9648171 198.253149,59.0419484 L199,57.4830855 L194.892317,54.9499323 L194.892317,54.9499323 Z M108.817688,0 L88.2792723,0 L88.2792723,19.4857916 L108.817688,19.4857916 L108.817688,0 L108.817688,0 Z M108.817688,23.3829499 L88.2792723,23.3829499 L88.2792723,42.8687416 L108.817688,42.8687416 L108.817688,23.3829499 L108.817688,23.3829499 Z M84.5450155,23.3829499 L64.0066006,23.3829499 L64.0066006,42.8687416 L84.5450155,42.8687416 L84.5450155,23.3829499 L84.5450155,23.3829499 Z M60.2723437,23.3829499 L39.7339287,23.3829499 L39.7339287,42.8687416 L60.2723437,42.8687416 L60.2723437,23.3829499 L60.2723437,23.3829499 Z M35.9996713,46.7658998 L15.4612565,46.7658998 L15.4612565,66.2516915 L35.9996713,66.2516915 L35.9996713,46.7658998 L35.9996713,46.7658998 Z M60.2723437,46.7658998 L39.7339287,46.7658998 L39.7339287,66.2516915 L60.2723437,66.2516915 L60.2723437,46.7658998 L60.2723437,46.7658998 Z M84.5450155,46.7658998 L64.0066006,46.7658998 L64.0066006,66.2516915 L84.5450155,66.2516915 L84.5450155,46.7658998 L84.5450155,46.7658998 Z M108.817688,46.7658998 L88.2792723,46.7658998 L88.2792723,66.2516915 L108.817688,66.2516915 L108.817688,46.7658998 L108.817688,46.7658998 Z M133.09036,46.7658998 L112.551944,46.7658998 L112.551944,66.2516915 L133.09036,66.2516915 L133.09036,46.7658998 L133.09036,46.7658998 Z" id="Shape"></path>
+        </g>
+        <text id="Image" font-family="LucidaGrande, Lucida Grande" font-size="28" font-weight="normal" fill="#171717">
+            <tspan x="558.135742" y="193">Image</tspan>
+        </text>
+        <g id="ucp-icon-medium" transform="translate(890.000000, 172.000000)" fill-rule="nonzero">
+            <polygon id="Path" fill="url(#linearGradient-1)" opacity="0.4" points="246 213.25177 246 73.7482297 124.179104 4 4 73.7482297 4 213.25177 124.179104 283"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-2)" points="227 191.507423 124.352644 251 21 191.489043 123.648065 132"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-3)" points="227 157.508836 124.352644 217 21 157.48975 123.648065 98"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-4)" points="153 81 123.597248 98 94 81 123.402752 64"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-5)" points="80 123.000351 50.5979551 140 21 123.000351 50.4034543 106"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-6)" points="153 166 123.597248 183 94 166 123.402752 149"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-7)" points="117 102 87.5972481 119 58 102 87.4027519 85"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-8)" points="153 122.997546 123.591979 140 94 123.002454 123.406611 106"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-9)" points="190 144 160.597248 161 131 144 160.402752 127"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-10)" points="227 123.001753 197.597955 140 168 123.001753 197.403454 106"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-11)" points="190 101.997546 160.591979 119 131 102.002454 160.406611 85"></polygon>
+            <polygon id="Path" fill="url(#linearGradient-12)" points="117 143.997896 87.5905654 161 58 144.002104 87.4066155 127"></polygon>
+            <path d="M123.667632,288 L0,215.996637 L0,72.0069039 L123.667632,0 L249,71.9913259 L249,216.008674 L123.667632,288 Z M7.78149299,211.507357 L123.693787,279.001615 L241.214973,211.492488 L241.214973,76.5082205 L123.693787,8.99838467 L7.78149299,76.4926425 L7.78149299,211.507357 Z" id="Shape" fill="#FFFFFF"></path>
+            <polygon id="Path" fill="#FFFFFF" points="123.544987 149 3 78.2962454 6.94263971 71.5549177 123.576171 139.965911 243.10201 71 247 77.7675834"></polygon>
+            <rect id="Rectangle" fill="#FFFFFF" x="120" y="143" width="8" height="141"></rect>
+        </g>
+    </g>
+</svg>
