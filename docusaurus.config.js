@@ -19,43 +19,43 @@ module.exports = {
           },
           {
             from: ['/articles/how-write-docker-file', '/articles/how-write-docker-file.html'],
-            to: '/blog/2018-05-20-how-write-docker-file'
+            to: '/blog/2018/05/20/how-write-docker-file'
           },
           {
             from: ['/articles/fandogh-introduction.html', '/articles/fandogh-introduction'],
-            to: '/blog/2018-06-23-fandogh-introduction',
+            to: '/blog/2018/06/23/fandogh-introduction',
           },
           {
             from: ['/articles/how-to-use-custom-domain.html', '/articles/how-to-use-custom-domain'],
-            to: '/blog/2018-07-23-how-to-use-custom-domain',
+            to: '/blog/2018/07/23/how-to-use-custom-domain',
           },
           {
             from: ['/articles/django-projects.html', '/articles/django-projects'],
-            to: '/blog/2018-07-24-django-projects',
+            to: '/blog/2018/07/24/django-projects',
           },
           {
             from: ['/articles/namespace-storage.html', '/articles/namespace-storage'],
-            to: '/blog/2018-08-04-namespace-storage',
+            to: '/blog/2018/08/04/namespace-storage',
           },
           {
             from: ['/articles/zero-downtime.html', '/articles/zero-downtime'],
-            to: '/blog/2018-08-08-zero-downtime',
+            to: '/blog/2018/08/08/zero-downtime',
           },
           {
             from: ['/articles/workshop.html', '/articles/workshop'],
-            to: '/blog/2018-10-28-workshop',
+            to: '/blog/2018/10/28/workshop',
           },
           {
             from: ['/articles/mattermost-deployment-post.html', '/articles/mattermost-deployment-post'],
-            to: '/blog/2018-12-22-mattermost-deployment-post',
+            to: '/blog/2018/12/22/mattermost-deployment-post',
           },
           {
             from: ['/articles/how-to-gitlab-ci.html', '/articles/how-to-gitlab-ci'],
-            to: '/blog/2019-02-08-how-to-gitlab-ci',
+            to: '/blog/2019/02/08/how-to-gitlab-ci',
           },
           {
             from: ['/articles/cloud-infra-simple.html', '/articles/cloud-infra-simple'],
-            to: '/blog/2019-10-09-cloud-infra-simple',
+            to: '/blog/2019/10/09/cloud-infra-simple',
           },
           {
             from: ['/docs', '/docs/neext'],
