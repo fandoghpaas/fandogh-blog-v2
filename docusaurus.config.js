@@ -54,6 +54,10 @@ module.exports = {
             to: '/blog/2019/02/08/how-to-gitlab-ci',
           },
           {
+            from: ['/articles/how-to-deploy-wordpress.html', '/articles/how-to-deploy-wordpress'],
+            to: '/blog/2018/06/03/how-to-deploy-wordpress',
+          },
+          {
             from: ['/articles/cloud-infra-simple.html', '/articles/cloud-infra-simple'],
             to: '/blog/2019/10/09/cloud-infra-simple',
           },
