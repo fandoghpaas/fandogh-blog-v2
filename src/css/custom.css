@@ -441,3 +441,6 @@ a[href*="/edit/"] > svg {
     max-width: 1300px !important;
 }
 
+footer {
+  direction: ltr;
+}
