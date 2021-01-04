@@ -3,12 +3,11 @@ title: deploy کردن وردپرس با فندق
 author: سکوی ابری فندق
 author_image_url: /img/fandogh.png
 tags: [fandogh_paas, docker, paas, wordpress, mysql]
-image: /img/blog/fandogh-paas-banner.svg
+image: /img/thumbs/blog-thumb-werdpress.png
 ---
+وردپرس یک سیستم مدیریت محتوای بسیار پرطرفدار است که می‌توانید به سادگی روی پلتفرم فندق deploy و استفاده کنید. در این مطلب قصد داریم با هم مراحل deploy کردن وردپرس روی فندق را مرور کنیم.
 
 ![Wordpress Banner](/img/blog/Wordpress-MySQL-logo.svg "Wordpress Banner")
-
-وردپرس یک سیستم مدیریت محتوای بسیار پرطرفدار است که می‌توانید به سادگی روی پلتفرم فندق deploy و استفاده کنید. در این مطلب قصد داریم با هم مراحل deploy کردن وردپرس روی فندق را مرور کنیم.
 
 <!--truncate-->
 
@@ -74,28 +73,32 @@ fandogh managed-service deploy mysql 9.4 -c service_name=my-database -c phpmyadm
 
 ```
 
-
-
 ### قدم سوم: نوشتن Dockerfile و publish کردن وردپرس
 
 برای اینکار یک Directory بسازید روی سیستم خودتون، مثلا اسمش را می‌‌گذاریم my-wp-blog  و وارد اون Directory بشید.
 یک فایل به نام `Dockerfile` بسازید و تنها چیزی که لازمه داخلش بنویسید همینه:
-```
+
+```dockerfile
 FROM wordpress
 ```
+
 با اینکار ما یک Image کاملا مشابه با Image اصلی وردپرس ساختیم و از همون استفاده می‌کنیم، توضیحات مربوط به image اصلی وردپرس رو می‌توانید [اینجا](https://hub.docker.com/_/wordpress/) مشاهده کنید
 حالا در حالی که داخل اون Directory هستید باید فقط یک فایل داشته باشید به نام Dockerfile  با محتویاتی که بالاتر اشاره کردم، الان کافیه که اول image هاتون را روی فندق init کنید و بعد هم ورژن بزنید و publish کنید:
 
-```
+```bash
 fandogh image init
 ```
+
 که از شما یک اسم می‌خواد،
-```
+
+```bash
 fandogh image publish
 ```
+
 که از شما ورژن می‌خواد
 اگر همه چیز خوب پیش بره باید وقتی لیست ورژن‌ها را میگیرید این ورژن وضعیتش `BUILT` باشه:
-```
+
+```bash
 fandogh image versions
 ```
 
@@ -105,7 +108,7 @@ fandogh image versions
 برای deploy کردن imageای که توی قدم قبلی ساختیم باید از کامند `service deploy‍` فندق استفاده کنیم، اما باید به وردپرس بگیم که کجا باید دنبال دیتابیس بگرده 
 طبق داکرفایلی که نوشتیم تو قدم قبلی image ما براساس 
 [ایمیج رسمی وردپرس](https://hub.docker.com/_/wordpress/)
- ساخته شده و ایمیج رسمی وردپرس یه سری environment variable دریافت می‌کنه.پارامتر‌هایی که برای ما مهم هستند، پارامتر‌های مربوط به دیتابیس هستند( البته لیست کاملش توی همین لینکی که گذاشتم هست)‌:
+ ساخته شده و ایمیج رسمی وردپرس یه سری environment variable دریافت می‌کنه.پارامتر‌هایی که برای ما مهم هستند، پارامتر‌های مربوط به دیتابیس هستند )البته لیست کاملش توی همین لینکی که گذاشتم هست(‌:
 * WORDPRESS_DB_HOST
 * WORDPRESS_DB_USER
 * WORDPRESS_DB_PASSWORD
@@ -113,14 +116,14 @@ fandogh image versions
 
 ما می‌تونیم موقع deploy سرویس این پارامتر‌ها را هم از طریق `e-` ست کنیم بنابر این کامندی که اجرا می‌کنیم میشه این:
 
-```
+```bash
 fandogh service deploy -e WORDPRESS_DB_HOST=my-database -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=somepassword -e WORDPRESS_DB_NAME=wp
 
 ```
 مقدار هر کدوم از این متغیر‌ها را از روی مقادیری که موقع ساخت سرویس MySQL مشخص کردیم باید بردارید.      
 بعد از اجرا از شما در مورد اینکه کدوم ورژن را مایلید deploy کنید می‌پرسه و اینکه اسم سرویستون چیه و اگر همه چیز خوب پیش بره خروجی مورد نظر این باید باشه:
 
-```
+```bash
 The image version: v1
 Your service name: mywp
 Your service deployed successfully.
