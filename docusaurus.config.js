@@ -138,6 +138,11 @@ module.exports = {
        {
         blog: {
           showReadingTime: true,
+          feedOptions: {
+            title: 'Fandogh PaaS Blog',
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Fandogh PaaS, Inc.`,
+          },
           editUrl:
              'https://github.com/fandoghpaas/fandogh-blog-v2/edit/main/',
         },
