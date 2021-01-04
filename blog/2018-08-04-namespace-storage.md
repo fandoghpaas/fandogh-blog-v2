@@ -3,7 +3,7 @@ title: Namespace و Storage Model
 author: سکوی ابری فندق
 author_image_url: /img/fandogh.png
 tags: [fandogh_paas, docker, paas, namespace, storage]
-image: /img/blog/fandogh-paas-banner.svg
+image: /img/thumbs/blog-thumb-ns-storage.png
 ---
   
 در این بخش سعی می‌کنیم برخی قسمت‌ها مثل Namespace و Storage Model رو برای شما توضیح بدهیم تا با ساختار و نحوه پیاده سازی این مفاهیم بر روی فندق آشنا شوید.    
@@ -12,7 +12,7 @@ image: /img/blog/fandogh-paas-banner.svg
 
 ## Namespace  
 هر Namespace یک فضای مجازی بر روی ابر فندق است. سرویس‌های شما بر روی Namespaceای که خود شما موقع ثبت نام، نام آن را مشخص کرده‌اید اجرا می‌شوند. سرویس‌های یک Namespace از طریق شبکه داخلی می‌توانند به یک‌دیگر دسترسی داشته باشند.<br/><br/>
-همچنین هر Namespace فضاهای ذخیره‌سازی (Storage) مختص به خود را دارد که فقط سرویس‌هایی که در آن Namespace در حال اجرا هستند به آنها دسترسی دارند.<br/><br/>
+همچنین هر Namespace فضاهای ذخیره‌سازی )Storage( مختص به خود را دارد که فقط سرویس‌هایی که در آن Namespace در حال اجرا هستند به آنها دسترسی دارند.<br/><br/>
 در حال حاضر برای هر کاربر پس از عضویت به طور خودکار یک Namespace با نامی که زمان ثبت نام مشخص کرده ایجاد می‌شود.  
  
 ## Network
