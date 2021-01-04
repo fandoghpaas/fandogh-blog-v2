@@ -126,6 +126,10 @@ module.exports = {
               label: 'twitter',
               href: 'https://twitter.com/fandoghpaas'
             },
+            {
+              label: 'feed',
+              href: 'https://blog.fandogh.cloud/blog/rss.xml'
+            },
           ],
         },
       ],

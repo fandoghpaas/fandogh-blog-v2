@@ -160,6 +160,22 @@ footer > div > div.row.footer__links > div:nth-child(1) > h4 {
   object-fit:
 }
 
+.footer__link-item[href*="rss.xml"] {
+  display: flex;
+  font-size: 0;
+  padding: 0 12px;
+}
+
+
+.footer__link-item[href*="rss.xml"]:before {
+  content: "";
+  width: 46px;
+  height: 46px;
+  background: url("/img/feed_icon.svg");
+  background-repeat: no-repeat;
+  object-fit:
+}
+
 .navbar__logo {
   margin-right: 0;
   margin-left: 0.5rem;
