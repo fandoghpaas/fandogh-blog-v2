@@ -3,12 +3,12 @@ title: استفاده از برنامه Mattermost به عنوان یک سروی
 author: سکوی ابری فندق
 author_image_url: /img/fandogh.png
 tags: [fandogh_paas, docker, paas, mattermost]
-image: /img/blog/fandogh-paas-banner.svg
+image: /img/thumbs/blog-thumb-mattermost.png
 ---
 
-![Mattermost](/img/blog/mattermost_messenger.png "Mattermost")
-  
   برنامه Mattermost یک سرویس پیام‌رسان است که عمده استفاده از آن برای شرکت‌ها بوده و از محبوبیت بالایی برخوردار است. این برنامه این قابلیت را دارد که به صورت رایگان بر روی سرورهای شخصی مورد استفاده قرار گیرد، به همین منظور ما هم تصمیم گرفتیم یک پست براتون آماده کنیم و در مورد نحوه دیپلوی کردن این سرویس بر روی فندق توضیح مختصری بدیم.<br/>برای **deploy** کردن این سرویس کافی است به ترتیب زیر عمل کنید.
+
+![Mattermost](/img/blog/mattermost_messenger.png "Mattermost")
 
 <!--truncate-->
 
