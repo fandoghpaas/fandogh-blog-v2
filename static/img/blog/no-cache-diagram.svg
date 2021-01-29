@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="650px" viewBox="0 0 1200 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>no-cache-diagram</title>
+    <g id="no-cache-diagram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#092E20" x="0" y="0" width="1200" height="650"></rect>
+        <g id="Group-3" transform="translate(94.000000, 36.000000)">
+            <rect id="Rectangle" fill="#078F0E" transform="translate(35.000000, 82.500000) rotate(-270.000000) translate(-35.000000, -82.500000) " x="-47" y="48" width="164" height="69" rx="5"></rect>
+            <rect id="Rectangle-Copy-3" fill="#078F0E" transform="translate(125.000000, 288.500000) rotate(-270.000000) translate(-125.000000, -288.500000) " x="43" y="254" width="164" height="69" rx="5"></rect>
+            <rect id="Rectangle-Copy-4" fill="#078F0E" transform="translate(35.000000, 494.500000) rotate(-270.000000) translate(-35.000000, -494.500000) " x="-47" y="460" width="164" height="69" rx="5"></rect>
+            <g id="Group-2" transform="translate(835.000000, 140.000000)">
+                <g id="Group" fill="#434EFF" stroke="#979797">
+                    <path d="M-47.904179,67 L206.743014,67 C208.734463,67.0000076 210.536038,68.1817858 211.329257,70.0084426 C223.776419,98.6722951 230,127.336148 230,156 C230,184.663856 223.776417,213.327712 211.329252,241.991567 C210.536028,243.818222 208.734452,245 206.743003,245 L-47.9041748,245 C-49.5610292,245 -50.9041751,243.656854 -50.9041751,242 C-50.9041751,241.699411 -50.8589996,241.400528 -50.770162,241.113366 C-41.9931548,212.742244 -37.6046512,184.371122 -37.6046512,156 C-37.6046512,127.628874 -41.9931561,99.2577475 -50.7701659,70.8866212 C-51.2598262,69.3037833 -50.3736433,67.6236848 -48.790809,67.1340126 C-48.5036484,67.0451754 -48.2047671,67 -47.904179,67 Z" id="Rectangle-Copy" transform="translate(89.000000, 156.000000) rotate(-270.000000) translate(-89.000000, -156.000000) "></path>
+                    <ellipse id="Oval" cx="89" cy="17" rx="89" ry="17"></ellipse>
+                </g>
+                <text id="Database" transform="translate(89.000000, 158.500000) rotate(-270.000000) translate(-89.000000, -158.500000) " font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="38" font-weight="400" fill="#FEFEFE">
+                    <tspan x="5.229" y="173">Database</tspan>
+                </text>
+            </g>
+            <path id="Path" d="M100.058577,81.0016218 L100.174582,81.0153574 L791.389,203.57 L792.437077,197.663353 L805,207 L789.992929,211.44835 L791.04,205.54 L99.825418,82.9846426 C99.2816149,82.8882236 98.9189384,82.3692211 99.0153574,81.825418 C99.0980022,81.359301 99.4911166,81.0262567 99.9442017,81.0013324 L100.058577,81.0016218 Z" fill="#FEFEFE" fill-rule="nonzero"></path>
+            <path id="Path-Copy" d="M115.007071,107.55165 L113.959,113.459 L805.174582,236.015357 C805.718385,236.111776 806.081062,236.630779 805.984643,237.174582 C805.895111,237.679542 805.441208,238.028327 804.941423,237.998378 L804.825418,237.984643 L113.61,115.429 L112.562923,121.336647 L100,112 L115.007071,107.55165 Z" fill="#434EFF" fill-rule="nonzero"></path>
+            <path id="Path-2" d="M791.011419,281.977208 L805,289 L790.988618,295.977189 L790.998,289.976 L190.998371,288.999999 C190.446087,288.999099 189.999102,288.550655 190.000001,287.998371 C190.000901,287.446087 190.449345,286.999102 191.001629,287.000001 L791.001,287.976 L791.011419,281.977208 Z" fill="#FEFEFE" fill-rule="nonzero"></path>
+            <path id="Path-2-Copy" d="M205.011382,301.022811 L205.001,307.023 L805.001629,308.000001 C805.553913,308.000901 806.000898,308.449345 805.999999,309.001629 C805.999163,309.514464 805.612435,309.936506 805.115003,309.993461 L804.998371,309.999999 L204.998,309.023 L204.988581,315.022792 L191,308 L205.011382,301.022811 Z" fill="#434EFF" fill-rule="nonzero"></path>
+            <path id="Path-3" d="M789.999062,366.531011 L805,371 L792.424246,380.319357 L791.385,374.409 L100.173227,495.984882 C99.6292922,496.080553 99.110789,495.717163 99.0151182,495.173227 C98.9262809,494.668145 99.2332666,494.184991 99.71308,494.041946 L99.8267726,494.015118 L791.038,372.439 L789.999062,366.531011 Z" fill="#FEFEFE" fill-rule="nonzero"></path>
+            <path id="Path-3-Copy" d="M805.984882,392.826773 C806.073719,393.331855 805.766733,393.815009 805.28692,393.958054 L805.173227,393.984882 L113.961,515.56 L115.000938,521.468989 L100,517 L112.575754,507.680643 L113.614,513.59 L804.826773,392.015118 C805.370708,391.919447 805.889211,392.282837 805.984882,392.826773 Z" fill="#434EFF" fill-rule="nonzero"></path>
+            <text id="Client-2" transform="translate(35.000000, 82.500000) rotate(-270.000000) translate(-35.000000, -82.500000) " font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#FEFEFE">
+                <tspan x="-14.014" y="93">Client 2</tspan>
+            </text>
+            <text id="Client-1" transform="translate(124.500000, 288.500000) rotate(-270.000000) translate(-124.500000, -288.500000) " font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#FEFEFE">
+                <tspan x="75.486" y="299">Client 1</tspan>
+            </text>
+            <text id="Client-3" transform="translate(35.500000, 494.500000) rotate(-270.000000) translate(-35.500000, -494.500000) " font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#FEFEFE">
+                <tspan x="-13.514" y="505">Client 3</tspan>
+            </text>
+            <text id="request-2" transform="translate(396.500000, 107.500000) rotate(11.000000) translate(-396.500000, -107.500000) " font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#FEFEFE">
+                <tspan x="336.062" y="118">request 2</tspan>
+            </text>
+            <text id="request-3" transform="translate(382.000000, 415.500000) rotate(-11.000000) translate(-382.000000, -415.500000) " font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#FEFEFE">
+                <tspan x="321.562" y="426">request 3</tspan>
+            </text>
+            <text id="response" transform="translate(382.000000, 190.500000) rotate(10.000000) translate(-382.000000, -190.500000) " font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#434EFF">
+                <tspan x="322.332" y="201">response</tspan>
+            </text>
+            <text id="request-1" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#FEFEFE">
+                <tspan x="329.562" y="273">request 1</tspan>
+            </text>
+            <text id="response" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#434EFF">
+                <tspan x="330.332" y="345">response</tspan>
+            </text>
+            <text id="response-copy" transform="translate(399.000000, 487.500000) rotate(-9.000000) translate(-399.000000, -487.500000) " font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="28" font-weight="400" fill="#434EFF">
+                <tspan x="339.332" y="498">response</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

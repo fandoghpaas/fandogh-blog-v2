@@ -465,3 +465,7 @@ footer {
 div.token-line > span {
   font-style: normal !important;
 }
+
+p,li {
+  line-height: 2;
+}
