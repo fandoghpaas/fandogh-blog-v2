@@ -4,11 +4,11 @@
     <g id="django" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect fill="#092E20" x="0" y="0" width="1200" height="650"></rect>
         <text id="Django" font-family="LucidaGrande-Bold, Lucida Grande" font-size="200" font-weight="bold" fill="#FEFEFE">
-            <tspan x="29.1054688" y="215">Django</tspan>
+            <tspan x="233.105469" y="215">Django</tspan>
         </text>
         <text id="MinIO" font-family="LucidaGrande-Bold, Lucida Grande" font-size="200" font-weight="bold">
-            <tspan x="504.056641" y="608" fill="#FEFEFE">Min</tspan>
-            <tspan x="881.986328" y="608" fill="#BB0537">IO</tspan>
+            <tspan x="295.056641" y="608" fill="#FEFEFE">Min</tspan>
+            <tspan x="672.986328" y="608" fill="#BB0537">IO</tspan>
         </text>
         <text id="+" font-family="LucidaGrande-Bold, Lucida Grande" font-size="200" font-weight="bold" fill="#FEFEFE">
             <tspan x="520.458984" y="400">+</tspan>
