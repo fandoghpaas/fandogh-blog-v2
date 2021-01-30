@@ -3,7 +3,7 @@ title: استفاده از Redis در پروژه‌های Django
 author: سکوی ابری فندق
 author_image_url: /img/fandogh.png
 tags: [fandogh_paas, docker, dockerfile, django,redis, cache, جانگو, ردیس]
-image: /img/thumbs/blog-thumb-django-minio.png
+image: /img/thumbs/blog-thumb-django-redis.png
 ---
 
 یکی از مواردی که در مورد وب‌سایت‌های Dynamic یا به زبان فارسی، پویا باید در نظر گرفته شود خود موضوع پویایی‌ است. در دنیای جدید، پشت وب‌سایت‌ها و اپلیکیشن‌ها، میزان قابل توجهی عملیات سروری نهفته است. از پرس‌و‌جوهای )Query( سمت دیتابیس گرفته تا Render شدن تمپلیت‌ها و محاسبات ریاضی و منطقی پیچیده.<br/><br/>
