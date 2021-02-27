@@ -4,19 +4,22 @@ branches:
 language: python
 cache: yarn
 python:
-- '3.5'
+  - '3.5'
 before_install:
-- nvm install 10.16.3
+  - nvm install 10.16.3
 install:
-- pip install fandogh-cli --upgrade
+  - pip install fandogh-cli --upgrade
 script:
-- echo $TRAVIS_COMMIT
-- COLLECT_ERROR=True fandogh login --username=$FANDOGH_USERNAME --password=$FANDOGH_PASSWORD
-- fandogh namespace active --name default
-- node --version
-- yarn
-- yarn build
-- fandogh source run
+  - echo $TRAVIS_COMMIT
+  - COLLECT_ERROR=True fandogh login --username=$FANDOGH_USERNAME --password=$FANDOGH_PASSWORD
+  - fandogh namespace active --name default
+  - node --version
+  - yarn
+  - yarn build
+  - fandogh source run
 notifications:
   slack:
-    secure: cGDewJih6nzUuY2nnv/GAjFl60xraicLAG1dBjtNc8uJ1fiA/HZ9lVRpHGrL9nD0hWDMrN/mJqBCr3gbRjqk0A4AQJiDOt9FdHi/r0i0d3YFneL7jHJ+YZn4WBN6J+1OtjCcXPSimlP5TLY4VAgDLSHpNHXwkryhby+R9MoN3gWf+CI6nxUWphWDtoNvv+qWpg7uIq5KvZLwtUKq7S7hatCFvXL19QLAxq455aMeV0hE/dat4DUlN2+etK8vLg4r5/uGHkxh6YVzVxr9EbAtCfG8klc7rANgwK9n4N4zRZPH15SOC48R98R8GCQL3byxHk+dfdimFE4z2MEvVauhp0Mx8W744ZciH3z1T8B4LEaUysUEKWfttT1hE2yP2LQm59c2axd7kpP3tb7+4bDSkebBRpwEzEemeSDvUI5Itpsl5mNJCOL/AHMc+8cDnt4ArcR/guVpPdTbkzLvtlPE0piaVCYvKoTJqqH+++sZzKo+zqJXEIa9sPA7HvCZr7nhIHdQpGyt+i8RHZy9X47g5B2jmG4qiNUETKpMdSEtU1KhKAafbR1P/Zwn220Ncv4oljBcm2QEl8Y+qEO/d2JRGuHdmskXka+ocX45wDmVu8ke3witdwd2GRnKcLAUUNDSvXKCE1JqEffKxuGvgVYzoISmycD6YGnRvRoqqSxvLaY=
+    rooms:
+      - secure: "CmipsGiduy49Jvom5q2N6v5Mrxd7xbWry10fpuDmliQqBtj/axJwYAGO2+MxKjEu3Rl3beGs1sm/9NHHQxImWLYI6ZSMSf7sS2DdF4ZsIS+1yrjTA0ruqWOPfLrBcGFHz9U0UasatXd6JdBEc0ZwFv78lt044XibeTZqT68Pl7hDZktAu8dJRd9RwJK8378dabZNaJhlIs4wPuOWqC8gJH6rw86EqCmVJSNZYyGXtCw2xxvi0hgP5zsPVMpBjM46Q/KgpVfDeanyh51IzcKa5f5mtp8jzPXdMRBfUMwdM5hGpQ+y7AxzZZJ/Hch76+nMluLAG2LoSMSJ+JAN/gHWo/cJw8rzRwWZbILpj7wh0gZRX01Eyd46BSJ02wr37ojgmLq/+S6c05kch5osPf7P/6au79FcvJ4B+aXpVKLb7SFlABZ4DmI22i5VH2fBN6I0WH+4AD08LR0hNoRpw1ZFYo2qkPqOq/Oe5aHUm+NxauN0vVldrD2/qplXEKPxIBQrMUiBSEW7ziy5wo3+Mq+1bFk/j0a9Hn3dF26RK0gUYdp2HE0/Pc/42JM3V2SuK0KNAh9M5kHCvXwtBMsBeQrxAzkyvjAUE6UnWJ/scZ3hPrt9Inhwhvag1dgx5czfq8y7lz2+HzUT52dT/PvYTESFgJFAhygTLCfOInn2Kv7WxJs="
+    on_success: always
+    on_failure: always
