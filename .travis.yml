@@ -4,18 +4,19 @@ branches:
 language: python
 cache: yarn
 python:
-  - "3.5" 
-# command to install dependencies
+- '3.5'
 before_install:
-  - nvm install 10.16.3
+- nvm install 10.16.3
 install:
-  - pip install fandogh-cli --upgrade
-# command to run tests
+- pip install fandogh-cli --upgrade
 script:
-  - echo $TRAVIS_COMMIT  
-  - COLLECT_ERROR=True fandogh login --username=$FANDOGH_USERNAME --password=$FANDOGH_PASSWORD
-  - fandogh namespace active --name default
-  - node --version
-  - yarn
-  - yarn build
-  - fandogh source run
+- echo $TRAVIS_COMMIT
+- COLLECT_ERROR=True fandogh login --username=$FANDOGH_USERNAME --password=$FANDOGH_PASSWORD
+- fandogh namespace active --name default
+- node --version
+- yarn
+- yarn build
+- fandogh source run
+notifications:
+  slack:
+    secure: cGDewJih6nzUuY2nnv/GAjFl60xraicLAG1dBjtNc8uJ1fiA/HZ9lVRpHGrL9nD0hWDMrN/mJqBCr3gbRjqk0A4AQJiDOt9FdHi/r0i0d3YFneL7jHJ+YZn4WBN6J+1OtjCcXPSimlP5TLY4VAgDLSHpNHXwkryhby+R9MoN3gWf+CI6nxUWphWDtoNvv+qWpg7uIq5KvZLwtUKq7S7hatCFvXL19QLAxq455aMeV0hE/dat4DUlN2+etK8vLg4r5/uGHkxh6YVzVxr9EbAtCfG8klc7rANgwK9n4N4zRZPH15SOC48R98R8GCQL3byxHk+dfdimFE4z2MEvVauhp0Mx8W744ZciH3z1T8B4LEaUysUEKWfttT1hE2yP2LQm59c2axd7kpP3tb7+4bDSkebBRpwEzEemeSDvUI5Itpsl5mNJCOL/AHMc+8cDnt4ArcR/guVpPdTbkzLvtlPE0piaVCYvKoTJqqH+++sZzKo+zqJXEIa9sPA7HvCZr7nhIHdQpGyt+i8RHZy9X47g5B2jmG4qiNUETKpMdSEtU1KhKAafbR1P/Zwn220Ncv4oljBcm2QEl8Y+qEO/d2JRGuHdmskXka+ocX45wDmVu8ke3witdwd2GRnKcLAUUNDSvXKCE1JqEffKxuGvgVYzoISmycD6YGnRvRoqqSxvLaY=
