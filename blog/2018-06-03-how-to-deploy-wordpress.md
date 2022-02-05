@@ -5,135 +5,73 @@ author_image_url: /img/fandogh.png
 tags: [fandogh_paas, docker, paas, wordpress, mysql]
 image: /img/thumbs/blog-thumb-werdpress.png
 ---
-وردپرس یک سیستم مدیریت محتوای بسیار پرطرفدار است که می‌توانید به سادگی روی پلتفرم فندق deploy و استفاده کنید. در این مطلب قصد داریم با هم مراحل deploy کردن وردپرس روی فندق را مرور کنیم.
-
-![Wordpress Banner](/img/blog/Wordpress-MySQL-logo.svg "Wordpress Banner")
-
-<!--truncate-->
-
-### خلاصه مراحل
-1.  یک حساب کاربری در فندق ساخته و فندق cli ‌را نصب کنید
-2. یک سرویس MySQL ‌از طریق دستور managed-service ‌ایجاد کنید.
-3. یک داکر فایل برای وردپرس نوشته و روی فندق publish کنید.
-4. با set کردن صحیح environment variables وردپرس را deploy کنید.
-
-:::note نکته
-اگر حوصله خواندن ندارید می‌توانید 
- [از این ریپو](https://github.com/fandoghpaas/fandogh-examples/tree/master/wordpress-mysql)
- استفاده کنید :-D
-:::
+برای راه اندازی یک وب سایت  وردپرسی بر روی فندق نیاز به ۲ سرویس داریم.
+اگربا مفهوم [سرویس ها](https://docs.fandogh.cloud/docs/services/services)
+آشنا نیستید مستندات مربوط به سرویس را مطالعه کنید.
 
 
-### قدم اول: ساخت اکانت فندق و نصب CLI
-کافیه یک سر به آدرس [فندق](http://fandogh.cloud/) بزنید و روی دکمه ثبت‌نام کلیک کنید، فکر نمی‌کنم بیشتر از ۱ دقیقه طول بکشه.
-شما برای ارسال دستوراتتون به فندق، به کلاینت فندق یا همون [Fandogh CLI](https://github.com/fandoghpaas/fandogh-cli) هم نیاز دارید که از طریق همین لینک می‌توانید به راحتی نصبش کنید، یا به [معرفی فندق](http://blog.fandogh.cloud/articles/fandogh-introduction.html) مراجعه کنید.
+اولین سرویس میشه پایگاه داده که از MySQL استفاده میکنیم. شما به راحتی می توانید از [سرویس های مدیریت شده فندق](https://docs.fandogh.cloud/docs/managed-services/mysql-managed-service) استفاده کنید.
+کافیه وارد داشبورد بشید از قسمت سرویس ها، ساخت سرویس را بزنید و سرویس MySQL را انتخاب کنید.
 
 
-### قدم دوم: ساخت سرویس MySQL
-ما در فندق یک قابلیتی ارائه میدیم به نام managed-service  که کمک می‌کنه سرویس‌های رایج را ساده‌تر deploy کنید.
-مراحل کار به این شکل هستش:
 
-قبل از هر چیز لازمه که لاگین کنیم
-```
-fandogh login
-```
-deploy کردن یک managed-service  فقط یک دستور لازم داره، به شرطی که اسم و ورژن سرویسی که میخواید deploy کنید را بدانید، مثلا برای deploy MySQL ورژن 9.4 دستور زیر کفایت می‌کنه:
-```
-fandogh managed-service deploy mysql 9.4
-```
-وقتی دستور را اجرا می‌کنید باید چنین خروجی مشاهده کنید:
+![Fandogh Managed Services](/img/blog/wordpress/dashboard_services.jpg "Wordpress Banner")
 
-```
-Your Mysql service will be ready in a few seconds.
-You can have access to the PHPMyAdmin via following link:
-http://mysql.[YOURNAMESPACE].fandogh.cloud
+اطلاعاتی که برای ساخت MySQL نیاز است را وارد کنید. حتما در نظر داشته باشید که به سرویس MySQL میزان رم مورد نیازش را بدید. اگر میزان رم این سرویس کم باشه سرویس مرتب restart میشه و عملا امکان کار کردن با اون را نخواهید داشت. 
 
-```
-اگر پیغام بالا را مشاهده کردید یعنی سرویس MySQL شما با موفقیت راه‌اندازی شده.
+![Mysql Service](/img/blog/wordpress/mysql_service.png "Mysql Service")
 
-اما حالا که داریم با managed-service کار می‌کنیم بذارید راجع به چند تا از ویژگی‌های قابل اعمال هم صحبت کنیم.
-همون طور که
-[اینجا مستند شده](https://github.com/fandoghpaas/fandogh-cli#configuration)
-شما برای deploy کردن MySQL یه سری گزینه قابل تنظیم دارید:
-* service_name
-همون طور که توی مستندات فندق هست، همه سرویس‌هایی که داخل یک namespace در حال اجرا هستند یک DNS داخلی دارند و سرویس‌های مختلف از طریق service_name می‌توانند همدیگر را پیدا کنند و به هم متصل بشوند.
-وقتی یک managed-service برای MySQL ایجاد می‌کنید اسم پیش‌فرضش mysql هستش، یعنی سرویس‌های دیگه باید توی شبکه دنبال نام mysql بگردند تا به آن وصل شوند، از طریق این گزینه می‌توانید اسم دیگه‌ای به آن نسبت بدید.
+بعد از اینکه سرویس MySQL راه اندازی شد فقط کافیه که بر روی لینکی که خود فندق به ما میده کلیک کنیم و از طریق PHPMyAdmin وارد داشبورد بشویم. یادتون باشه که نام کاربری به صورت پیش فرض root هست و پسورد اون چیزی هست که خودتون انتخاب کردید. 
 
-* phpmyadmin_enabled
-از طریق این گزینه می‌توانید PHPMyAdmin را فعال یا غیر فعال کنید
+![Mysql Service](/img/blog/wordpress/wordpress_mysql_service.png "Mysql Service")
 
-* mysql_root_password
-این هم از اسمش پیداست، میشه از طریقش پسورد روت MySQL را مشخص کرد
+در این قسمت باید یک دیتابیس جدید برای سرویس wordpress خودمون ایجاد کنیم. تنظمیاتی که مد نظرتون هست را انتخاب کنید و بر روی ساخت کلیک کنید. 
 
+![Mysql Service](/img/blog/wordpress/mysql_php_myadmin.png "Mysql PhpMyAdmin")
 
-برای اینکه یک سری از امکانات دیگه فندق را هم ببینیم  توی این ‌آموزش ما قصد نداریم از PHPMyAdmin استفاده کنیم، پس اجازه بدید به این شکل سرویس MySQL را ایجاد کنیم:
+بعد از اینکه دیتابیس ساخته شد باید سراغ ساخت سرویس wordpress بریم. برای اینکار دوباره به قسمت سرویس ها در داشبورد
+برمیگردیم و گزینه ساخت سرویس را میزنیم و از گزینه های موجود بر روی Fandogh Wizard کلیک میکنیم. در صفحه ای
+که باز میشه ابتدا باید مشخص کنیم که این سرویس ازنوع external هست و اون را انتخاب می کنیم. نام سرویس و منابع مورد
+نیاز برای سرویس را مشخص میکنیم. پورتی که ایمیج وردپرس برای ما مشخص کرده ۸۰ هست و اون را در قسمت port وارد
+میکنیم. پس از اعمال تغییرات مورد نظر چیزی شبیه به تصویر زیر باید داشته باشید.
 
-```
-fandogh managed-service deploy mysql 9.4 -c service_name=my-database -c phpmyadmin_enabled=false -c mysql_root_password=somepassword
+![](/img/blog/wordpress/service_wizard_name.png)
 
-```
+بر روی بعدی کلیک کنید تا ادامه تنظیمات را مشخص کنیم.
+در این قسمت باید مبدا ایمیج را مشخص کنیم. در این پست ما از خود docker hub به عنوان registry [ایمیج](https://hub.docker.com/_/wordpress) استفاده می کنیم. بر روی گزینه Docker hub کلیک میکنیم و اسم ایمیج به همراه ورژن ایمیج را وارد میکنیم.
 
-### قدم سوم: نوشتن Dockerfile و publish کردن وردپرس
+![](/img/blog/wordpress/wizard_image_section.png )
 
-برای اینکار یک Directory بسازید روی سیستم خودتون، مثلا اسمش را می‌‌گذاریم my-wp-blog  و وارد اون Directory بشید.
-یک فایل به نام `Dockerfile` بسازید و تنها چیزی که لازمه داخلش بنویسید همینه:
+ بر روی بعدی کلیک کنید.
 
-```dockerfile
-FROM wordpress
-```
+همانطور که در صفحه ایمیج wordpress در docker hub مشخص شده باید یک سری Environment Variable را مشخص کنیم.
 
-با اینکار ما یک Image کاملا مشابه با Image اصلی وردپرس ساختیم و از همون استفاده می‌کنیم، توضیحات مربوط به image اصلی وردپرس رو می‌توانید [اینجا](https://hub.docker.com/_/wordpress/) مشاهده کنید
-حالا در حالی که داخل اون Directory هستید باید فقط یک فایل داشته باشید به نام Dockerfile  با محتویاتی که بالاتر اشاره کردم، الان کافیه که اول image هاتون را روی فندق init کنید و بعد هم ورژن بزنید و publish کنید:
+این مقادیر شامل:
 
-```bash
-fandogh image init
-```
+WORDPRESS_DB_HOST همان اسم سرویس MySQL ای است که از قبل ساختیم.
 
-که از شما یک اسم می‌خواد،
+WORDPRESS_DB_USER نام کاربری سرویس MySQL است که به صورت پیش فرض برابر با root می باشد.
 
-```bash
-fandogh image publish
-```
+WORDPRESS_DB_PASSWORD رمز عبوری که از قبل مشخص کردیم را وارد میکنیم.
 
-که از شما ورژن می‌خواد
-اگر همه چیز خوب پیش بره باید وقتی لیست ورژن‌ها را میگیرید این ورژن وضعیتش `BUILT` باشه:
+WORDPRESS_DB_NAME و در نهایت اسم دیتابیسی که در سرویس MySQL ساختیم را مشخص می کنیم. 
 
-```bash
-fandogh image versions
-```
+![](/img/blog/wordpress/wizard_envs.png )
+بر روی بعدی کلیک کنید.
+
+در این قسمت باید فولدر هایی که قصد داریم به [فضای ذخیره‌سازی](https://docs.fandogh.cloud/docs/volumes/dedicated-volume) mount شوند را مشخص کنیم. در صفحه [داکرهاب وردپرس](https://hub.docker.com/_/wordpress) دو مسیر برای مشخص شدند که عبارتند از:
+
+- /var/www/html/wp-content/themes/
+- /var/www/html/wp-content/plugins/
+
+باید این دو مسیر را به shared volume و یا dedicated volume مانت کنیم. برای اینکار کافیه این مسیر ها را به همراه اسمی که مد نظرمون هست وارد کنیم.
+
+![](/img/blog/wordpress/wizard_mount.png )
+
+پس از وارد کردن موارد فوق بر روی گزینه اتمام ساخت کلیک کنید.
+
+اگر تمام تنظیمات را به درستی اعمال کرده باشید در نهایت پس از ساخت سرویس بر روی لینکی که فندق به شما می دهد کلیک کنید تا صفحه نصب ورد پرس را مشاهده کنید. 
+
+![](/img/blog/wordpress/wordpress_installation.png )
 
 
-### قدم چهارم و آخر: deploy کردن وردپرس روی فندق
-
-برای deploy کردن imageای که توی قدم قبلی ساختیم باید از کامند `service deploy‍` فندق استفاده کنیم، اما باید به وردپرس بگیم که کجا باید دنبال دیتابیس بگرده 
-طبق داکرفایلی که نوشتیم تو قدم قبلی image ما براساس 
-[ایمیج رسمی وردپرس](https://hub.docker.com/_/wordpress/)
- ساخته شده و ایمیج رسمی وردپرس یه سری environment variable دریافت می‌کنه.پارامتر‌هایی که برای ما مهم هستند، پارامتر‌های مربوط به دیتابیس هستند )البته لیست کاملش توی همین لینکی که گذاشتم هست(‌:
-* WORDPRESS_DB_HOST
-* WORDPRESS_DB_USER
-* WORDPRESS_DB_PASSWORD
-* WORDPRESS_DB_NAME
-
-ما می‌تونیم موقع deploy سرویس این پارامتر‌ها را هم از طریق `e-` ست کنیم بنابر این کامندی که اجرا می‌کنیم میشه این:
-
-```bash
-fandogh service deploy -e WORDPRESS_DB_HOST=my-database -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=somepassword -e WORDPRESS_DB_NAME=wp
-
-```
-مقدار هر کدوم از این متغیر‌ها را از روی مقادیری که موقع ساخت سرویس MySQL مشخص کردیم باید بردارید.      
-بعد از اجرا از شما در مورد اینکه کدوم ورژن را مایلید deploy کنید می‌پرسه و اینکه اسم سرویستون چیه و اگر همه چیز خوب پیش بره خروجی مورد نظر این باید باشه:
-
-```bash
-The image version: v1
-Your service name: mywp
-Your service deployed successfully.
-The service is accessible via following link:
-http://[YOUR-SERVICE-NAME].[YOUR-NAMESPACE].fandogh.cloud
-```
-
-اگر به آدرس بالا مراجعه کنید با صفحه نصب wordpress مواجه میشید و این یعنی سرویس وردپرس شما آماده است.
-
-
-ممنون که همراه ما هستید، هر سوال یا مشکلی در مورد استفاده از فندق داشتید حتما توی قسمت 
-[ایشو‌های گیت‌هاب ](https://github.com/fandoghpaas/fandogh-cli/issues)
-با ما به اشتراک بگذارید، خوشحال میشیم نظرات و انتقادات شما را بشنویم.
