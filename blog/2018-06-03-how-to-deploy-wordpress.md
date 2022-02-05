@@ -3,9 +3,9 @@ title: deploy کردن وردپرس با فندق
 author: سکوی ابری فندق
 author_image_url: /img/fandogh.png
 tags: [fandogh_paas, docker, paas, wordpress, mysql]
-image: /img/thumbs/blog-thumb-werdpress.png
+image: /img/thumbs/blog-thumb-wordpress.png
 ---
-برای راه اندازی یک وب سایت  وردپرسی بر روی فندق نیاز به ۲ سرویس داریم.
+برای راه‌اندازی یک وب سایت وردپرسی بر روی فندق نیاز به ۲ سرویس داریم.
 اگربا مفهوم [سرویس ها](https://docs.fandogh.cloud/docs/services/services)
 آشنا نیستید مستندات مربوط به سرویس را مطالعه کنید.
 
@@ -21,7 +21,7 @@ image: /img/thumbs/blog-thumb-werdpress.png
 
 ![Mysql Service](/img/blog/wordpress/mysql_service.png "Mysql Service")
 
-بعد از اینکه سرویس MySQL راه اندازی شد فقط کافیه که بر روی لینکی که خود فندق به ما میده کلیک کنیم و از طریق PHPMyAdmin وارد داشبورد بشویم. یادتون باشه که نام کاربری به صورت پیش فرض root هست و پسورد اون چیزی هست که خودتون انتخاب کردید. 
+بعد از اینکه سرویس MySQL راه‌اندازی شد فقط کافیه که بر روی لینکی که خود فندق به ما میده کلیک کنیم و از طریق PHPMyAdmin وارد داشبورد بشویم. یادتون باشه که نام کاربری به صورت پیش فرض root هست و پسورد اون چیزی هست که خودتون انتخاب کردید. 
 
 ![Mysql Service](/img/blog/wordpress/wordpress_mysql_service.png "Mysql Service")
 
